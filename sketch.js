@@ -116,10 +116,10 @@ function setup() {
 }
 
 function draw() {
-  background('#b1d1fc');
+  background('#0988e8');
   for (let i = 0; i < numSegments - 1; i++) {
     line(xCor[i], yCor[i], xCor[i + 1], yCor[i + 1]);
-    stroke('#c1f80a');
+    stroke('#fa6c07');
   }
   updateSnakeCoordinates();
   updateHandContainer();
