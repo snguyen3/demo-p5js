@@ -12,7 +12,7 @@ html, body {
   }
 
   #score-container {
-    background-color: aquamarine;
+    background-color: #c8baf0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -47,7 +47,7 @@ html, body {
 
   .hands {
     height: 100px;
-    background-color: #b8937a;
+    background-color: #659dbf;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -64,6 +64,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid black;
   }
 
   .left-arrow {
